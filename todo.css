@@ -1,0 +1,73 @@
+body{
+   
+       background-image: url(https://wallpapermural.com/cdn/shop/files/Compto-teal-pink-ombre-wallpaper-mural_Artwork.jpg?v=1682415238);
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-position: 50%;
+border-radius: 10px;
+
+      }
+#main{
+      padding-left: 520px;
+      align-items: center;
+      padding-top: 7px;
+      background-image: url(https://st3.depositphotos.com/12106700/35967/i/450/depositphotos_359678588-stock-photo-rocky-coast-sunset-distance-coast.jpg);
+     
+      border-radius: 227px;
+      border: 10px solid #29008040;
+      
+
+}
+
+#main-heading{
+      text-align: center;
+}
+
+.grid-container{
+      display: grid;
+      grid-template-columns: 173px 126px 85px;
+      column-gap: 10px;
+      row-gap: 10px;
+      margin-top: 10px;
+      align-items: center;
+     
+}
+#todo-input,#todo-date{
+      font-size: 15px;
+      padding: 8px 5px;
+      border-color: #09998dc2;
+      border-top: ridge;
+      background-color: #849bad82;
+  
+}
+.add{
+      font-size: 15px;
+      padding: 8px 5px;
+      border-radius: 6px;
+      border-color: #09998dc2;
+      border-top: ridge;
+      background-color: #849bad82;
+      cursor: pointer;
+      
+      
+}
+.add:hover {
+      background-color: #2980b9;
+      color: #ffffff;
+    }
+
+.todo-del{
+      font-size: 15px;
+      padding: 8px 5px;
+      border-radius: 6px;
+      border-color: pink;
+      border-top: ridge;
+      background-color: rgb(174, 101, 222);
+      cursor: pointer;
+}
+.todo-del:hover {
+      background-color: #2980b9;
+      color: #ffffff;
+    }
+
+
